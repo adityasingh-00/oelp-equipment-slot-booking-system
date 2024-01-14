@@ -1,0 +1,12 @@
+/* Add these styles to your CSS file */
+
+.verified-button {
+    background-color: green; /* Change to your preferred color for verified */
+    /* Other styles for the button */
+  }
+  
+  .non-verified-button {
+    background-color: red; /* Change to your preferred color for non-verified */
+    /* Other styles for the button */
+  }
+  

@@ -1,11 +1,29 @@
+
+
+
+
+ .time-slot {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.time-slot.booked {
+  background-color: #ff0000; /* Red color for booked slots */
+  color: #fff; /* White text for visibility */
+  cursor: not-allowed; /* Disable clicks on booked slots */
+}
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +54,4 @@
     transform: rotate(360deg);
   }
 }
+

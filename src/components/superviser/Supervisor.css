@@ -1,0 +1,81 @@
+.wrapper1{
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.L11, .L21 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+.L11 {
+    background-color: #f8f8f8;
+}
+
+.L21:last-child {
+    border-bottom: none;
+}
+
+.L21 button {
+    height: fit-content;
+}
+
+
+.h21{
+    font-weight: bold;
+    font-size: large;
+}
+
+.box1{
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+}
+.notification1 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+}
+.form1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input1 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.button1 {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button1:hover {
+    background-color: #45a049;
+}

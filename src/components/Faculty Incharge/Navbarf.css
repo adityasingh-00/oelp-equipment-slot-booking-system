@@ -1,0 +1,62 @@
+.nav{
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav button{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.nav button:hover{
+    background-color: #45a049;
+}
+
+.nav h2 {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav .login {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.nav .login:hover {
+    background-color: #007B9A;
+}
+.nav .fa-bell {
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+.notification-box {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}

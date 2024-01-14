@@ -1,0 +1,17 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .centergooglesignin{
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 200px;
+    
+  }
+ 
