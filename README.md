@@ -1,4 +1,6 @@
-Central Instrumentation Facility CIF Equipment Slot booking portal 
+#Central Instrumentation Facility CIF Equipment Slot booking portal 
+#Introduction
+This repository contains the code and documentation for an online portal developed for the Central Instrumentation Facility (CIF) at IIT Palakkad, aimed at streamlining the equipment slot booking process. This portal was developed under the guidance of Prof. Dr. Albert Sunny and Prof. Dr. Soham Manni.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
