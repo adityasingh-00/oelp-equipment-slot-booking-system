@@ -6,6 +6,7 @@ This repository contains the code and documentation for an online portal develop
 The purpose of this portal is to simplify and automate the process of booking equipment slots within the CIF for students, researchers, and faculty members at IIT Palakkad. By providing a centralized platform, the portal aims to make the booking process transparent, efficient, and convenient for all stakeholders involved.
 # Contributors
 Aditya Prakash
+<br>
 Yash Rajput
 
 # Getting Started with Create React App
